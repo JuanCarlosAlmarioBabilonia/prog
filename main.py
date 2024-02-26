@@ -1,0 +1,6 @@
+info_usuario = input ("Ingrese su(s) nombre(s): "), input ("Ingrese sus apellidos: "), input ("Ingrese su edad: ")
+direcciones = input ("Ingrese su direccion principal (hogar):"), input ("Ingrese su direccion laboral (trabajo): ")
+educacion= input ("Ingrese el/los nivel(es) de educacion recibida (preescolar, basica, media o superior): "), input ("Ingrese los cursos que ha realizado: "), input ("Ingrese los titulos que ha obtenido: ")
+exp_laboral= input ("Ingrese su experiencia laboral: ")
+info = tuple ((info_usuario, direcciones, educacion, exp_laboral))
+print (info)
